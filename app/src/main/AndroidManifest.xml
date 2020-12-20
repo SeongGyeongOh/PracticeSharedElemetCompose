@@ -3,12 +3,14 @@
     package="com.osg.practice04sharedelemetcompose">
 
     <application
+        android:name=".Practice04SharedElementCompose"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practice04SharedElemetCompose">
+        <activity android:name=".SecondActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
